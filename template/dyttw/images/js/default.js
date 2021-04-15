@@ -87,4 +87,11 @@ $(document).ready(function() {
 	//图片延时加载
 	common.images.lazyload();
 	common.detail.collapse();
+if (navigator.userAgent.toLocaleLowerCase().indexOf('ucbrowser') > -1) {
+    document.querySelectorAll('a').forEach(function (t) {
+        if (t.href.endsWith('.html')) {
+            t.href += '?t=' + Math.random();
+        }
+    })
+}
 });
