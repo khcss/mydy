@@ -88,14 +88,3 @@ $(document).ready(function() {
 	common.images.lazyload();
 	common.detail.collapse();
 });
-
-function timestamp(url){
-    var getTimestamp=new Date().getTime();
-    if(url.indexOf("?")>-1){
-        url=url+"&timestamp="+getTimestamp
-    }else{
-        url=url+"?timestamp="+getTimestamp
-    }
-    return url
-};
-url.indexOf("?")>-1?`${url}&timestamp=${new Date().getTime()}`:`${url}?=timestamp${new Date().getTime()}`
