@@ -88,3 +88,13 @@ $(document).ready(function() {
 	common.images.lazyload();
 	common.detail.collapse();
 });
+
+function convertURL(url){  
+  var timstamp = (new date).valueOf();  
+  if (url.indexOf("?")>=0){  
+     url = url + "&t=" + timstamp;   
+  }else {  
+     url = url + "?t=" + timstamp;  
+  };  
+  return url;  
+};  
