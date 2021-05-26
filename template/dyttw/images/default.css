@@ -116,7 +116,7 @@ cursor: pointer;}
 .cat_listbox,.cat_xlist{width:100%;overflow: hidden;}
 .cat_listbox .cat_list_vod{margin-left:10px;margin-bottom:10px;}
 .cat_listbox .cat_list_vod .vpic{overflow: hidden;white-space: nowrap;max-height:150px;}
-.cat_listbox .cat_list_vod .vpic img{max-height:150px;padding:2px 2px;background:#fff;border:1px solid #dadada;}
+.cat_listbox .cat_list_vod .vpic img{height:130px;padding:2px 2px;background:#fff;border:1px solid #dadada;}
 .cat_listbox .cat_list_vod .vpic1 img:hover{background:#EAED3B;border:1px solid #EAED3B;}
 .cat_listbox .cat_list_vod .vtxt1{width:100%;overflow: hidden;margin-left:10px;}
 .cat_listbox .tuijian .xm3{overflow:hidden;white-space:nowrap;}
